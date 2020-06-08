@@ -32,7 +32,7 @@ def is_cached_img_array_from_csv(cache_path,base_dir,csv_name):
 
 def get_augmented_y(y_t):
     y_aux = [] #[""] * (len(y_train)*4) #y_train.copy()
-    for i in range(len(y_train)):
+    for i in range(len(y_t)):
         for j in range(4):
             y_aux.append(y_t[i])
     
